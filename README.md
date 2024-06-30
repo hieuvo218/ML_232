@@ -13,4 +13,4 @@ MNIST dataset consists of 60,000 training images and 10,000 testing images. It i
 ## Setup and Installation
 Install all the required packages, dataset get from keras.
 ## Note
-The notebook contains my primary work, the python files are summary of each model.
+The python notebook contains my primary work, read the notebook to understand details. The python files are summary of each model.
