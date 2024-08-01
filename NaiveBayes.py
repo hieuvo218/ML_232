@@ -120,13 +120,13 @@ class CountingProbDist:
 		for o in observation:
 			self.add(o)
 
-	def smooth(self, o):
+	def smooth_for(self, o):
 		"""
 		Include o among observations, whether or not it's been observered yet
 		"""
 		if o not in self.dictionary:
 			self.dictionary[o] = self.default
-			self.n_obs += 1
+			self.n_obs += self.default
 
 	def add(self, o):
 		self.smooth(o)
