@@ -11,7 +11,7 @@ MNIST dataset consists of 60,000 training images and 10,000 testing images. It i
 - Seaborn
 - Matplotlib
 ## Setup and Installation
-Install all the required packages, dataset get from keras.
+Install all the required packages, dataset is got from keras.
 ## Algorithms
 - K-nearest neighbors.
 - Support vector machine.
