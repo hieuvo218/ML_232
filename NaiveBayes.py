@@ -129,7 +129,7 @@ class CountingProbDist:
 			self.n_obs += self.default
 
 	def add(self, o):
-		self.smooth(o)
+		self.smooth_for(o)
 		self.dictionary[o] += 1
 		self.n_obs += 1
 
@@ -139,7 +139,7 @@ class CountingProbDist:
 
 	def __getitem__(self, item):
 		"""Return a probability for an item"""
-		self.smooth(item)
+		self.smooth_for(item)
 		return self.dictionary[item] / self.n_obs
 
 def NaiveBayesLearner(dataset):
