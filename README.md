@@ -17,3 +17,4 @@ This repository contains images, a report, many python files and one notebook.
 - NaiveBayes.py: This file implements Naive Bayes classifier, a class named 'Dataset' to load data and a function to calculate probability distribution.
 - cnn_for_mnist.py: Convolutional Neural Network to classify images
 - MNIST_classification_with_several_learning_techniques.ipynb: A notebook to implement machine learning methods. In this notebook, I use t-SNE technique to have a look at the dataset. For classifying, I contrucsted multiple models based on different learning algorithms to test their efficiency. In constructing SVM, I separate train dataset to two sets: train set and validation set with ratio 80:20. The train set used to update parameters and validation set used to tune hyperparameters.
+For details, please have a look at the notebook which implement machine learning models and results.
