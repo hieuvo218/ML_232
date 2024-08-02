@@ -12,6 +12,12 @@ MNIST dataset consists of 60,000 training images and 10,000 testing images. It i
 - Matplotlib
 ## Setup and Installation
 Install all the required packages, dataset get from keras.
+## Algorithms
+- K-nearest neighbors.
+- Support vector machine.
+- Naive Bayes classifier.
+- Gradient Boosting
+- Convolutional neural network.
 ## Note
 This repository contains images, a report, many python files and one notebook.
 - NaiveBayes.py: This file implements Naive Bayes classifier, a class named 'Dataset' to load data and a function to calculate probability distribution.
