@@ -144,8 +144,8 @@ class CountingProbDist:
 
 def NaiveBayesLearner(dataset):
 	target_values = dataset.values[dataset.target]
-	target_dist = CountingProbDist(target_values)
-	attr_dist = {(attr, class_val): CountingProbDist(dataset.values[attr]) for attr in dataset.inputs for class_val in target_values}
+	target_dist = CountingProbDist(target_values, 1)
+	attr_dist = {(attr, class_val): CountingProbDist(dataset.values[attr], 1) for attr in dataset.inputs for class_val in target_values}
 	for example in dataset.examples:
 		target_val = example[dataset.target]
 		target_dist.add(target_val)
